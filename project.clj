@@ -9,11 +9,11 @@
   :min-lein-version "2.7.1"
 
   :dependencies [[org.clojure/clojure "1.9.0"]
-                 [org.clojure/clojurescript "1.9.946"]
+                 [org.clojure/clojurescript "1.10.764"]
                  [org.clojure/core.async  "0.4.474"]
                  [reagent "0.7.0"]]
 
-  :plugins [[lein-figwheel "0.5.15"]
+  :plugins [[lein-figwheel "0.5.20"]
             [lein-cljsbuild "1.1.7" :exclusions [[org.clojure/clojure]]]]
 
   :source-paths ["src"]
